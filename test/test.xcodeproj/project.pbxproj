@@ -15,6 +15,7 @@
 		98379B2E1D24F5A1007EBAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98379B2C1D24F5A1007EBAF6 /* LaunchScreen.storyboard */; };
 		98379B371D24F73C007EBAF6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 98379B361D24F73C007EBAF6 /* Dog.m */; };
 		98379B3A1D24F745007EBAF6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98379B391D24F745007EBAF6 /* Person.m */; };
+		98379B3D1D24FCD8007EBAF6 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 98379B3C1D24FCD8007EBAF6 /* cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		98379B361D24F73C007EBAF6 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		98379B381D24F745007EBAF6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		98379B391D24F745007EBAF6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		98379B3B1D24FCD8007EBAF6 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		98379B3C1D24FCD8007EBAF6 /* cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				98379B221D24F5A1007EBAF6 /* AppDelegate.m */,
 				98379B241D24F5A1007EBAF6 /* ViewController.h */,
 				98379B251D24F5A1007EBAF6 /* ViewController.m */,
+				98379B3B1D24FCD8007EBAF6 /* cat.h */,
+				98379B3C1D24FCD8007EBAF6 /* cat.m */,
 				98379B351D24F73C007EBAF6 /* Dog.h */,
 				98379B361D24F73C007EBAF6 /* Dog.m */,
 				98379B381D24F745007EBAF6 /* Person.h */,
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98379B3D1D24FCD8007EBAF6 /* cat.m in Sources */,
 				98379B261D24F5A1007EBAF6 /* ViewController.m in Sources */,
 				98379B231D24F5A1007EBAF6 /* AppDelegate.m in Sources */,
 				98379B3A1D24F745007EBAF6 /* Person.m in Sources */,
@@ -312,6 +318,7 @@
 				98379B341D24F5A1007EBAF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
