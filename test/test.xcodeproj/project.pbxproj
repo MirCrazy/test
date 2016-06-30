@@ -13,6 +13,8 @@
 		98379B291D24F5A1007EBAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98379B271D24F5A1007EBAF6 /* Main.storyboard */; };
 		98379B2B1D24F5A1007EBAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98379B2A1D24F5A1007EBAF6 /* Assets.xcassets */; };
 		98379B2E1D24F5A1007EBAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98379B2C1D24F5A1007EBAF6 /* LaunchScreen.storyboard */; };
+		98379B371D24F73C007EBAF6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 98379B361D24F73C007EBAF6 /* Dog.m */; };
+		98379B3A1D24F745007EBAF6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98379B391D24F745007EBAF6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		98379B2A1D24F5A1007EBAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98379B2D1D24F5A1007EBAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98379B2F1D24F5A1007EBAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98379B351D24F73C007EBAF6 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		98379B361D24F73C007EBAF6 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		98379B381D24F745007EBAF6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		98379B391D24F745007EBAF6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				98379B221D24F5A1007EBAF6 /* AppDelegate.m */,
 				98379B241D24F5A1007EBAF6 /* ViewController.h */,
 				98379B251D24F5A1007EBAF6 /* ViewController.m */,
+				98379B351D24F73C007EBAF6 /* Dog.h */,
+				98379B361D24F73C007EBAF6 /* Dog.m */,
+				98379B381D24F745007EBAF6 /* Person.h */,
+				98379B391D24F745007EBAF6 /* Person.m */,
 				98379B271D24F5A1007EBAF6 /* Main.storyboard */,
 				98379B2A1D24F5A1007EBAF6 /* Assets.xcassets */,
 				98379B2C1D24F5A1007EBAF6 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			files = (
 				98379B261D24F5A1007EBAF6 /* ViewController.m in Sources */,
 				98379B231D24F5A1007EBAF6 /* AppDelegate.m in Sources */,
+				98379B3A1D24F745007EBAF6 /* Person.m in Sources */,
+				98379B371D24F73C007EBAF6 /* Dog.m in Sources */,
 				98379B201D24F5A1007EBAF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
